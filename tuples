@@ -1,0 +1,28 @@
+#[("Alice", "New York", "London"), ("Bob", "Tokyo", "San Francisco")], 
+
+p= [("Alice", "New York", "London"), ("Bob", "Tokyo", "San Francisco"),("Mike", "Atlanta", "Texas")]
+
+def travel_iteniary(travelers):
+    for traveler in travelers:
+        print(f'{traveler[0]} is traveling from {traveler[1]} and going to {traveler[2]}')
+
+travel_iteniary(p)
+
+# Allow user to input book title and author
+# Add that input to the library 
+#store the input and add it to the new library
+#ptint out new library 
+
+library = [("1984", "George Orwell"), ("Brave New World", "Aldous Huxley")]
+book_author= input ("enter author:")
+book_title= input ("enter title:")
+
+def book(library):
+    for books in library: 
+        while True: input ("Do you want to add another book? (yes/no): ")
+    if True == "yes": 
+        (library.append) (book_title, book_author)
+        print ("updated_library" f"- {book[0]} by {book[1]}")
+    else: 
+        print (library)
+        
